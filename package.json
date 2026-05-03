@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "regression": "npx playwright test",
-    "webTests": "npx playwright test --grep @Web",
-    "APITests": "npx playwright test --grep @API",
-    "SafariNewConfig": "npx playwright test --config playwright.config1.js --project=safari"
+    "scripts": {
+    "regression": "npx playwright install && npx playwright test",
+    "webTests": "npx playwright install && npx playwright test --grep @Web",
+    "APITests": "npx playwright install && npx playwright test --grep @API",
+    "SafariNewConfig": "npx playwright install && npx playwright test --config playwright.config1.js --project=safari"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
