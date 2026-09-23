@@ -8,7 +8,12 @@
       "Bash(git commit:*)",
       "Bash(git remote:*)",
       "Bash(git push:*)",
-      "Bash(az ad sp create-for-rbac:*)"
+      "Bash(az ad sp create-for-rbac:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm install:*)",
+      "Bash(sudo rm:*)",
+      "Bash(npx playwright *)",
+      "Bash(curl *)"
     ],
     "deny": [],
     "ask": []

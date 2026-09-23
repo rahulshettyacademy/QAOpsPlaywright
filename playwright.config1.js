@@ -18,7 +18,8 @@ const config = {
     {
       name : 'safari',
       use: {
-
+        actionTimeout: 5000,
+        navigationTimeout : 6000,
         browserName : 'webkit',
         headless : true,
         screenshot : 'off',
