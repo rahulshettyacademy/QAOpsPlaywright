@@ -28,7 +28,7 @@ jobs:
 
       - name: Run Playwright tests (shard)
         run: >
-          npx playwright test --config=playwright.service.config.js --workers=4
+          npx playwright test --config=playwright.config.js --workers=4
           --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
           --reporter=blob
 
