@@ -42,7 +42,7 @@ exports.test = base.test.extend({
       category: 'Conference',
       venue: 'Bangalore International Centre',
       city: 'Bangalore',
-      eventDate: '2026-09-15T09:00:00.000Z',
+      eventDate: '2029-09-15T09:00:00.000Z',
       price: 1500,
       totalSeats: 500,
       imageUrl: 'https://example.com/images/automation-event.jpg',

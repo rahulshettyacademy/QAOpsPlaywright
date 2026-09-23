@@ -18,7 +18,7 @@ async searchCountryAndSelect(countryCode,countryName)
     await this.country.pressSequentially("ind");
     await this.dropdown.waitFor({ state: "visible" });
     const countryOption = this.dropdown.locator("button", { hasText: countryName }).first();
-    await countryOption.waitFor(s{ state: "visible" });
+    await countryOption.waitFor({ state: "visible" });
     await countryOption.click();
 
 }
