@@ -1,5 +1,5 @@
  const {test, expect} = require('@playwright/test');
- const {customtest} = require('../utils/test-base');
+ const {customtest1} = require('../utils/test-base');
 
  const {POManager} = require('../pageobjects/POManager');
  //Json->string->js object
@@ -40,7 +40,7 @@ for(const data of dataset)
  });
 }
 
- customtest(`Client App login`, async ({page,testDataForOrder})=>
+ customtest1(`Client App login`, async ({page,testDataForOrder})=>
  {
    const poManager = new POManager(page);
     //js file- Login js, DashboardPage
