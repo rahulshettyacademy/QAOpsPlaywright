@@ -16,7 +16,7 @@
     "@azure/identity": "^4.13.1",
     "@azure/playwright": "^1.1.3",
     "@cucumber/cucumber": "*",
-    "@playwright/test": "^1.62.1",
+    "@playwright/test": "^1.63.0",
     "allure-playwright": "^2.0.0-beta.15",
     "typescript": "^5.4.5"
   },
