@@ -38,7 +38,10 @@ exports.customtest = base.test.extend({
 
   testDataForOrder : {
 
-    productName : 'ADIDAS ORIGINAL'
+    productName : 'ADIDAS ORIGINAL',
+    userEmail: 'rahulshettyw@gmail.com',
+     userPassword: 'Learning@830$3mK3' 
+
   }
 });
 
